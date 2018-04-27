@@ -31,9 +31,9 @@ DROP TABLE IF EXISTS `departments`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `departments` (
-  `dept_no` varchar(4) NOT NULL DEFAULT '',
+  `dept_No` varchar(4) NOT NULL DEFAULT '',
   `dept_name` varchar(40) NOT NULL,
-  PRIMARY KEY (`dept_no`),
+  PRIMARY KEY (`dept_No`),
   UNIQUE KEY `dept_name` (`dept_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -810,4 +810,4 @@ CREATE TABLE IF NOT EXISTS `slow_log` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-27 14:23:01
+-- Dump completed on 2018-04-27 14:24:01
